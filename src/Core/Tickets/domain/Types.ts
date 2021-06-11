@@ -1,0 +1,25 @@
+const TYPES = {
+  FlightsPort: Symbol("FlightsPort"),
+  AirlinesPort: Symbol("AirlinesPort"),
+  TariffOptionsPort: Symbol("TariffOptionsPort"),
+  FlightsDataRepository: Symbol("FlightsDataRepository"),
+  AirlinesDataRepository: Symbol("AirlinesDataRepository"),
+  FilterDataRepository: Symbol("FilterDataRepository"),
+  TicketModule: Symbol("TicketModule"),
+  FilterModule: Symbol("FilterModule"),
+  GetTicketsQuery: Symbol("GetTicketsQuery"),
+  GetFilterDataQuery: Symbol("GetFilterDataQuery"),
+  ResetFilters: Symbol("ResetFilters"),
+  FilterByCode: Symbol("FilterByCode"),
+  SelectAllFilters: Symbol("SelectAllFilters"),
+  GetAirlinesQuery: Symbol("GetAirlinesQuery"),
+  SelectAllFiltersCommand: Symbol("SelectAllFiltersCommand"),
+  GetTariffOptionsQuery: Symbol("GetTariffOptionsQuery"),
+  ResetFilterCommand: Symbol("ResetFilterCommand"),
+  FilterState: Symbol("FilterState"),
+  FiltersOptionsQuery: Symbol("FiltersOptionsQuery"),
+  FiltersAirlinesQuery: Symbol("FiltersAirlinesQuery"),
+  GetFilterOptionsQuery: Symbol("GetFilterOptionsQuery"),
+};
+
+export default TYPES;
