@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar-thumb {
+    background:url("./assets/skroll.svg") no-repeat;
+}
